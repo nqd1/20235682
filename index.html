@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cửa hàng Giáo sư Cafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cửa hàng Giáo sư Cafe</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#products">Sản phẩm</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Chào mừng đến với Cửa hàng Giáo sư Cafe</h2>
+            <p>Chúng tôi cung cấp những ly cà phê thơm ngon nhất với hương vị đặc trưng từ các vùng đất nổi tiếng.</p>
+        </section>
+
+        <section id="products">
+            <h2>Sản phẩm của chúng tôi</h2>
+            <div id="product-list">
+                <article class="product-item">
+                    <h3 class="product-name">Cà phê Arabica</h3>
+                    <p class="product-desc">Cà phê Arabica thơm ngon, vị đậm đà từ vùng Tây Nguyên</p>
+                    <p class="product-price">Giá: 45,000₫</p>
+                </article>
+                
+                <article class="product-item">
+                    <h3 class="product-name">Cà phê Robusta</h3>
+                    <p class="product-desc">Cà phê Robusta mạnh mẽ, phù hợp cho những ai yêu thích vị đắng</p>
+                    <p class="product-price">Giá: 40,000₫</p>
+                </article>
+                
+                <article class="product-item">
+                    <h3 class="product-name">Cà phê Latte</h3>
+                    <p class="product-desc">Cà phê Latte mềm mại với lớp sữa tươi thơm ngon</p>
+                    <p class="product-price">Giá: 55,000₫</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Liên hệ với chúng tôi</h2>
+            <form id="contactForm">
+                <label for="name">Tên của bạn:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Nội dung:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Gửi</button>
+            </form>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
